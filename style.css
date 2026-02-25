@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #70c5ce;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: sans-serif;
+  }
+  
+  #game-over {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(0, 0, 9);
+    color: rgb(2055, 0, 0, 0.9);
+    font-size: 24px;
+    padding: 20px 30px;
+    border-radius: 10px;
+    z-index: 10;
+    text-align: center;
+    display: none;
+  }
+  
+  #game-over button:hover {
+    background-color: #d63031;
+  }
+  
+  #game {
+    position: relative;
+    width: 400px;
+    height: 600px;
+    background-color: #f1f3f3;
+    overflow: hidden;
+    border: 3px solid #000;
+    border-radius: 10px;
+  }
+  
+  #bird {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-image: url('https://pngimg.com/d/birds_PNG33.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 250px;
+    left: 100px;
+    /* Add temporary background color to check */
+    background-color: rgb(247, 241, 241);
+  }
+  
+  .pipe {
+    position: absolute;
+    width: 40px;
+    background-color: green;
+  }
+  
+  .pipe.top {
+    top: 0;
+  }
+  
+  .pipe.bottom {
+    bottom: 0;
+  }
+  
+  #score {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+  }
+  
