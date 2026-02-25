@@ -37,7 +37,7 @@ Gravity continuously pulls the bird downward while keyboard input allows upward 
 
 ## 🔗 Live Demo
 
-https://mayankpal932-design.github.io/flappy-bird-game-javascript/
+https://mayankpal932-design.github.io/Flappy-Bird-Game-Javascript/
 
 ---
 
